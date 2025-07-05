@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .card-header-trainer {
+    }
+
+    .card-header-client {
+    }
+</style>
+
+<div class="container my-5">
+    <!-- Welcome Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4">Welcome to Trainify</h1>
+        <p class="lead">The ultimate app for trainers and clients to collaborate, manage progress, and achieve fitness goals together!</p>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="row g-3">
+        <!-- Trainer Benefits -->
+        <div class="col-md-6 d-flex">
+            <div class="card shadow-sm h-100 w-100">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3>Trainer Benefits</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Easily manage your clients all in one place.</li>
+                        <li class="list-group-item">Automatically generate meal and workout plans for clients.</li>
+                        <li class="list-group-item">Organize and manage your timetable with session bookings.</li>
+                        <li class="list-group-item">Motivate your clients with a unique points system.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Client Benefits -->
+        <div class="col-md-6 d-flex">
+            <div class="card shadow-sm h-100 w-100">
+                <div class="card-header bg-success text-white text-center">
+                    <h3>Client Benefits</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Earn rewards and compete on a leaderboard with fellow clients.</li>
+                        <li class="list-group-item">Visualize your progress with detailed insights and charts.</li>
+                        <li class="list-group-item">View personalized meal and workout plans set by your trainer.</li>
+                        <li class="list-group-item">Get highly-rated workout recommendations tailored to your profile.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

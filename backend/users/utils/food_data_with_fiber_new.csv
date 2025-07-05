@@ -1,0 +1,47 @@
+Category,Food Name,Calories per Serving,Protein per Serving,Carbs per Serving,Fat per Serving,Fiber per Serving,Serving Quantity,Serving Unit,Serving Weight (g)
+Protein,chicken breast,198.0,37.2,0.0,4.3,0.0,1.0,breast,120.0
+Protein,grilled chicken,284.2,56.6,0.0,6.5,0.0,1.0,piece,192.0
+Protein,chicken thigh,278.2,30.5,0.1,17.9,0.0,1.0,thigh with skin,130.0
+Protein,turkey breast,125.0,25.6,0.0,1.8,0.0,3.0,oz,85.0
+Protein,salmon,467.6,50.2,0.0,28.0,0.0,1.0,fillet,227.0
+Protein,tuna,110.5,24.8,0.0,0.5,0.0,3.0,oz,85.0
+Protein,eggs,71.5,6.3,0.4,4.8,0.0,1.0,large,50.0
+Protein,lamb,249.9,20.8,0.0,17.8,0.0,3.0,oz,85.0
+Protein,lamb chop,164.7,15.4,0.0,11.4,0.0,1.0,chop,54.0
+Protein,lamb breast,229.5,23.9,0.0,14.9,0.0,3.0,oz,85.0
+Protein,beef,220.2,22.2,0.0,14.1,0.0,3.0,oz,85.0
+Protein,cod,189.0,41.1,0.0,1.6,0.0,1.0,fillet,180.0
+Protein,beef mince,308.4,30.6,0.0,19.7,0.0,4.0,"oz, cooked",113.4
+Protein,steak,614.4,57.8,0.0,40.8,0.0,1.0,steak,221.0
+Protein,chicken sausage,147.0,17.9,0.0,7.8,0.0,1.0,link,75.0
+Carb,white rice,205.4,4.2,44.5,0.4,0.6,1.0,cup,158.0
+Carb,brown rice,109.2,2.3,22.9,0.8,1.8,0.5,cup,97.5
+Carb,mashed potato,237.3,4.1,35.6,8.8,3.1,1.0,cup,210.0
+Carb,baked potato,160.9,4.3,36.6,0.2,3.8,1.0,potato medium,173.0
+Carb,oats,153.5,5.3,27.4,2.6,4.1,0.5,cup,40.5
+Carb,sweet potato,102.6,2.3,23.6,0.2,3.8,1.0,"medium (2"" dia, 5"" long, raw)",114.0
+Carb,pasta,195.9,7.2,38.3,1.1,2.2,1.0,cup spaghetti not packed,124.0
+Carb,noodles,195.9,7.2,38.3,1.1,2.2,1.0,cup spaghetti not packed,124.0
+Carb,couscous,175.8,6.0,36.5,0.2,2.2,1.0,"cup, cooked",157.0
+Carb,bulgar wheat,151.1,5.6,33.8,0.4,8.2,1.0,cup,182.0
+Carb,pita bread,165.0,5.5,33.4,0.7,1.3,1.0,"pita, large (6-1/2"" dia)",60.0
+Carb,tortilla,159.2,4.3,27.2,3.5,1.6,1.0,"tortilla (approx 7-8"" dia)",49.0
+Carb,quinoa,111.0,4.1,19.7,1.8,2.6,0.5,cup,92.5
+Carb,kidney beans,224.8,15.3,40.4,0.9,11.3,1.0,cup,177.0
+Carb,chick peas,269.0,14.5,45.0,4.2,12.5,1.0,cup,164.0
+Fat,almonds,7.7,0.3,0.3,0.7,0.1,1.0,almond,1.3
+Fat,olive oil,119.3,0.0,0.0,13.5,0.0,1.0,tablespoon,13.5
+Fat,peanut butter,188.2,7.0,7.7,15.8,1.8,2.0,tbsp,32.0
+Fat,avocado,321.6,4.0,17.1,29.5,13.5,1.0,"avocado, NS as to Florida or California",201.0
+Fat,chia seeds,58.3,2.0,5.0,3.7,4.1,1.0,tbsp,12.0
+Fat,parmesan,21.0,1.4,0.7,1.4,0.0,1.0,tbsp,5.0
+Fat,cottage cheese,106.6,12.1,3.7,4.7,0.0,0.5,cup,108.8
+Vegetable,brocolli,3.5,0.2,0.7,0.0,0.3,1.0,floret,10.0
+Vegetable,cauliflower,132.2,10.6,23.6,2.6,13.2,1.0,medium head,575.0
+Vegetable,carrots,16.1,0.3,3.8,0.1,1.4,1.0,carrot,46.0
+Vegetable,lettuce,16.0,1.2,3.1,0.3,2.0,2.0,cups shredded,94.0
+Vegetable,tomatoes,22.1,1.1,4.8,0.2,1.5,1.0,"medium whole (2-3/5"" dia)",123.0
+Vegetable,sweetcorn,85.4,3.0,18.7,1.3,2.1,1.0,ear small,89.0
+Vegetable,green peas,134.4,8.6,25.0,0.3,8.8,1.0,cup,160.0
+Vegetable,spinach,41.4,5.3,6.8,0.5,4.3,1.0,cup,180.0
+Vegetable,cucumber,30.1,1.3,7.3,0.2,1.0,1.0,medium,201.0
