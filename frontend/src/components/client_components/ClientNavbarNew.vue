@@ -41,7 +41,7 @@
               <a class="nav-link" href="javascript:void(0)"> Leaderboard </a>
             </li>
 
-            <li class="nav-item" :class="{ active: activeView === trainerTab }" @click="handleTrainerClick">
+            <li class="nav-item" :class="{ active: activeView === trainerTab }" @click="">
               <a class="nav-link" :style="trainerStyle" href="javascript:void(0)">
                 {{ trainerText }}
               </a>

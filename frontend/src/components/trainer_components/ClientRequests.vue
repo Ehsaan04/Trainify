@@ -8,28 +8,39 @@
       <p>Loading client requests...</p>
     </div>
     <div v-else>
-      <ul class="list-group">
-        <li
-          v-for="request in requests"
-          :key="request.id"
-          class="list-group-item d-flex justify-content-between align-items-center"
+  <div v-if="requests.length === 0" class="empty-message">
+    <p>There are currently no client requests.</p>
+  </div>
+  <ul v-else class="list-group">
+    <li
+      v-for="request in requests"
+      :key="request.id"
+      class="list-group-item d-flex justify-content-between align-items-center"
+    >
+      <div>
+        <h5>{{ request.client_username }}</h5>
+        <p>{{ request.message }}</p>
+        <small class="text-muted">Requested on: {{ formatDate(request.created_at) }}</small>
+      </div>
+      <div>
+        <button
+          class="btn btn-success me-2"
+          @click="respondToRequest(request.id, 'approve')"
+          :disabled="request.status === 'approved'"
         >
-          <div>
-            <h5>{{ request.client_username }}</h5>
-            <p>{{ request.message }}</p>
-            <small class="text-muted">Requested on: {{ formatDate(request.created_at) }}</small>
-          </div>
-          <div>
-            <button class="btn btn-success me-2" @click="respondToRequest(request.id, 'approve')" :disabled="request.status === 'approved'">
-              Accept
-            </button>
-            <button class="btn btn-danger" @click="respondToRequest(request.id, 'reject')" :disabled="request.status === 'rejected'">
-              Reject
-            </button>
-          </div>
-        </li>
-      </ul>
-    </div>
+          Accept
+        </button>
+        <button
+          class="btn btn-danger"
+          @click="respondToRequest(request.id, 'reject')"
+          :disabled="request.status === 'rejected'"
+        >
+          Reject
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
   </div>
 </template>
 
@@ -104,10 +115,26 @@ export default {
 
 <style scoped>
 h2 {
-  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
+
 .list-group-item {
   margin-bottom: 1rem;
   padding: 1rem;
 }
+.empty-message {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #555;
+  margin-top: 1rem;
+}
+
 </style>

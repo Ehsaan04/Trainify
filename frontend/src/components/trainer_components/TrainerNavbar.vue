@@ -29,9 +29,9 @@
               <a class="nav-link" href="javascript:void(0)">Leaderboard</a>
             </li>
 
-            <li class="nav-item" :class="{ active: activeView === 'trainerProfile' }" @click="activeView = 'trainerProfile'">
+            <!-- <li class="nav-item" :class="{ active: activeView === 'trainerProfile' }" @click="activeView = 'trainerProfile'">
               <a class="nav-link" href="javascript:void(0)">Profile</a>
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <a class="nav-link text-danger" href="javascript:void(0)" @click="logout">
