@@ -90,7 +90,7 @@ This repository includes a pre-seeded db.sqlite3 database with:
 * ✅ No real user data included.
 
 ### 📝 License
-This project is intended for educational and demonstration purposes. A license will be added when the project is made public.
+Licensed under the MIT License.
 
 ### 🙌 Acknowledgements
 Built using Django, Vue, Pandas, PuLP, scikit-learn
